@@ -1,4 +1,11 @@
 .header{
+  justify-content: center;
+  display: flex;
+  width: 300px;
+  background-position: top;
+  box-shadow:4px 0px 4px rgb(255 242 242 / 40%);
+  background-image:url('../../../public/images/header.png');
+  
   @media (max-width: 900px){
     flex-direction: column;
     height: 200px;
@@ -25,11 +32,6 @@
     
   }
 
-    display: flex;
-    width: 300px;
-    background-position: top;
-    box-shadow:4px 0px 4px rgb(255 242 242 / 40%);
-    background-image:url('../../../public/images/header.png');
     h1{
       font-size: 2.0em;
       font-weight: bold;
