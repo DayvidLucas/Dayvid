@@ -27,7 +27,17 @@ h2{
 .containerApp{
   display: flex;
   flex-direction: row;
+
 }
 .container{
   width: 100%;
+}
+
+@media (max-width: 900px){
+  .containerApp{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
 }

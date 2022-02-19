@@ -1,5 +1,30 @@
 .header{
-    justify-content: center;
+  @media (max-width: 900px){
+    flex-direction: column;
+    height: 200px;
+    width: 100vh;
+    background-image:url('../../../public/images/header.png');
+    background-position: center;
+
+    .profile{
+      position: static;
+      background-color: rgba(0, 0, 0, 0.303);
+      height: inherit;
+      
+    }
+    .profileInfo{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      color: #ffffff;
+      -webkit-text-stroke-color: rgba(0, 0, 0, 0.357);
+      margin: 20px;
+    }
+
+    
+    
+  }
+
     display: flex;
     width: 300px;
     background-position: top;
@@ -26,6 +51,13 @@
     flex-direction: column;
     color: #ffffff;
     -webkit-text-stroke-color: #000;
+
+    .profileName{
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    text-align: -webkit-center;
+      }
   
   }
   .imgProfile{
@@ -38,12 +70,7 @@
     background-image:url('../../../public/images/profile.jpg');
   }
   
-  .profileName{
-    text-align: center;
-    margin: 0;
-    justify-content: center;
-    text-align: -webkit-center;
-  }
+ 
   .socialMedia{
     display: flex;
     flex-direction: row;
