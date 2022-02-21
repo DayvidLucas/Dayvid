@@ -10,6 +10,8 @@
     width: 100%;
     @media (max-width:900px) {
         margin-left: 0px;
+        height: 200vmax;
+        width: 100vmax;
         .row{
             align-items: center;
         }
