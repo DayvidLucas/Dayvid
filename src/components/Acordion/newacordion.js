@@ -10,9 +10,9 @@ import styles from '../Acordion/Acordion.module.scss'
 
         <div className={styles.row}>
          <FaUserGraduate color= "#fff"size="2em" />       <h1>Graduação</h1> 
-         <hr />
+     
         </div>
-
+        <hr />
 
 
       </div>

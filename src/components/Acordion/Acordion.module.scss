@@ -4,12 +4,20 @@
 }
 .container{
     margin-left: 4px;
-    height: 200vmax;
-    width: 100vmax;
     background-color: #0b0b0ce3;
     color: #fff;
+    height: 100vmax;
+    width: 100%;
+    @media (max-width:900px) {
+        margin-left: 0px;
+        .row{
+            align-items: center;
+        }
+    }
+   
 }
 .row{
     display: flex;
     flex: row;
+    width: 100vh;
 }
